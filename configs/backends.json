@@ -1,0 +1,115 @@
+{
+  "clef": {
+    "backend": "clef",
+    "repo_id": "mlx-community/clef-flash-4bit",
+    "revision": "140bf7e037f5fa95a96535feca112f46c15927cf",
+    "path_env": "CLEF_MODEL_DIR",
+    "local_dir": "models/clef-flash-4bit",
+    "runtime": "Apple Silicon; mlx 0.32.3, mlx-lm 0.32.0, mlx-vlm 0.7.4"
+  },
+  "decider": {
+    "backend": "decider",
+    "repo_id": "Mapika/decider-0.8b",
+    "revision": "a0a01d6f8135298f400a8c856b355793012ae971",
+    "path_env": "DECIDER_MODEL_DIR",
+    "local_dir": "models/decider-0.8b",
+    "runtime": "Snapshot decider package; PyTorch and Transformers"
+  },
+  "intern-0.8B": {
+    "backend": "intern",
+    "repo_id": "internlm/Intern-Decision-0.8B",
+    "revision": "85a0cc5a99d67ea8d56dfe98115689212867171d",
+    "path_env": "INTERN_MODEL_DIR",
+    "local_dir": "models/Intern-Decision-0.8B",
+    "runtime": "Snapshot requirements.txt; default CPU/float32"
+  },
+  "intern-2B": {
+    "backend": "intern",
+    "repo_id": "internlm/Intern-Decision-2B",
+    "revision": "8797836c65fc91a2435b1fb6850b5f0aabd75cc3",
+    "path_env": "INTERN_MODEL_DIR",
+    "local_dir": "models/Intern-Decision-2B",
+    "runtime": "Snapshot requirements.txt; default CPU/float32"
+  },
+  "intern-4B": {
+    "backend": "intern",
+    "repo_id": "internlm/Intern-Decision-4B",
+    "revision": "0e5e6aa7d6d750e2b1504ba11a8136cb58aeb3cd",
+    "path_env": "INTERN_MODEL_DIR",
+    "local_dir": "models/Intern-Decision-4B",
+    "runtime": "Snapshot requirements.txt; default CPU/float32"
+  },
+  "jevstyle": {
+    "backend": "jevstyle",
+    "repo_id": "chaoliangUNSW/Jev-Style-Qwen3.5-2B-Decision-v2",
+    "revision": "6b84dda83feb79d7ed14c4c312fcb918be76cbff",
+    "path_env": "JEVSTYLE_MODEL_DIR",
+    "local_dir": "models/Jev-Style-2B-v2",
+    "runtime": "Snapshot requirements.txt and jev_h100 package"
+  },
+  "julia": {
+    "backend": "julia",
+    "repo_id": "SupersonicLabs/Julia-1",
+    "revision": "a85b127321d580d65176c89ced8273f305745d85",
+    "path_env": "JULIA_MODEL_DIR",
+    "local_dir": "models/Julia-1",
+    "runtime": "Install snapshot as supersonic-julia; Transformers 5.0.x"
+  },
+  "laya": {
+    "backend": "laya",
+    "repo_id": "convaiinnovations/laya",
+    "revision": "7b928d828b7b0e022f929d9bd2e44165aa270148",
+    "path_env": "LAYA_MODEL_DIR",
+    "local_dir": "models/laya",
+    "runtime": "laya 0.3.26/0.3.27; multilingual subfolder; default CPU"
+  },
+  "nanojev": {
+    "backend": "nanojev",
+    "repo_id": "C-Tianyu/NanoJev",
+    "revision": "unified-games-v1",
+    "path_env": "NANOJEV_MODEL_DIR",
+    "local_dir": "models/NanoJev",
+    "runtime": "Snapshot source/scripts and CPU fp32 inference dependencies"
+  },
+  "openjev4b": {
+    "backend": "openjev4b",
+    "repo_id": "AlexWortega/openjev",
+    "revision": "a20448012c213128955ca0c693e7c943865cab77",
+    "path_env": "OPENJEV4B_DIR",
+    "local_dir": "models/openjev-4b",
+    "runtime": "Snapshot code/openjev_decide.py; PyTorch and Transformers"
+  },
+  "openjev_deberta": {
+    "backend": "openjev_deberta",
+    "repo_id": "com-kotobalabs/open-jev-deberta-v3-large",
+    "revision": "188ee67a5c93122b916e5acd5bdb0cb3623e380a",
+    "path_env": "OPENJEV_MODEL_DIR",
+    "local_dir": "models/open-jev-deberta-v3-large",
+    "runtime": "Snapshot typed_decisions; PyTorch, Transformers, SentencePiece, protobuf"
+  },
+  "openthai": {
+    "backend": "openthai",
+    "repo_id": "iapp/OpenThai-SystemOne",
+    "revision": "dc67b0295ab7ac94b05d27187150d9a4b5784554",
+    "path_env": "OPENTHAI_MODEL_DIR",
+    "local_dir": "models/OpenThai-SystemOne",
+    "runtime": "openthai-systemone 0.1.0 and its dependencies"
+  },
+  "jev": {
+    "backend": "jev",
+    "provider": "OpenRouter",
+    "key_env": "OPENROUTER_API_KEY",
+    "model_env": "JEV_MODEL",
+    "default_model": "~typesafe/jev-latest",
+    "recorded_model": "typesafe/jev-1.13-20260917"
+  },
+  "semif-qwen4b": {
+    "backend": "semif",
+    "role": "general-purpose control",
+    "repo_id": "Qwen/Qwen3.5-4B",
+    "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+    "path_env": "SEMIF_MODEL_DIR",
+    "local_dir": "models/Qwen3.5-4B",
+    "runtime": "Apple Silicon; MLX bf16; bundled SemIf direct-options-v1 source; mlx 0.32.3 and mlx-lm 0.32.0"
+  }
+}

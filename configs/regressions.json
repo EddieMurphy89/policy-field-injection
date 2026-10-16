@@ -1,0 +1,14 @@
+{
+  "jev-review": {
+    "repo_url": "https://github.com/EddieMurphy89/jev-review.git",
+    "revision": "2166249f69e69d881c01e33be0508b67e4038818"
+  },
+  "jev-router": {
+    "repo_url": "https://github.com/EddieMurphy89/jev-router.git",
+    "revision": "94c064dc0fce8c9b56e1a7fff5f0da181002b1f6"
+  },
+  "fast-jev-compaction": {
+    "repo_url": "https://github.com/EddieMurphy89/fast-jev-compaction.git",
+    "revision": "5110602b3017e44fdb7f108287b7956f7721fba5"
+  }
+}

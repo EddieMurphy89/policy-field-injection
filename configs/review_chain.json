@@ -1,0 +1,7 @@
+{
+  "repo_url": "https://github.com/devagrawal09/jev-review.git",
+  "revision": "31f89602797fb7bea007f8a480bf368bf564954e",
+  "node": ">=24",
+  "sdk": "0.6.0",
+  "local_dir": "experiments/review_chain/vendor/jev-review"
+}

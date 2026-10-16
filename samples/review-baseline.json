@@ -1,0 +1,15 @@
+{
+  "fixture_type": "saved_review_report_excerpt",
+  "findings": [
+    {
+      "dimension": "security",
+      "severity": 2.26,
+      "action": "request_changes"
+    },
+    {
+      "dimension": "testGap",
+      "severity": 2.08,
+      "action": "request_changes"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+requests>=2.31
+# Local decision-model backends (clients/julia_client.py etc.) additionally
+# need torch + transformers — see the adapter you enable.

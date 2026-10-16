@@ -1,0 +1,3 @@
+The staged review request fixtures contain question schemas from devagrawal09/jev-review, commit 31f89602797fb7bea007f8a480bf368bf564954e, distributed under the MIT license. See licenses/jev-review-MIT.txt.
+
+toolkit/third_party/semif_phase1 contains the five unmodified SemIf inference modules used by the general-purpose model control. Source: TheoLeeCJ/SemIf-OpenJev, local experimental snapshot obtained from the upstream master branch. The original download did not record a commit revision; this release bundles those exact source files. Copyright (c) 2026 TheoLeeCJ, MIT license; see licenses/SemIf-MIT.txt.

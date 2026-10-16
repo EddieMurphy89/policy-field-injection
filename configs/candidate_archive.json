@@ -1,0 +1,742 @@
+{
+  "variants": [
+    "orig",
+    "mut0",
+    "mut1",
+    "mut2",
+    "mut3",
+    "mut4",
+    "mut5",
+    "mut6"
+  ],
+  "candidate_order": [
+    "c1_v1",
+    "c2_triage",
+    "c3_compliance",
+    "c4_taxonomy",
+    "c5_r1",
+    "c6_r1_triage",
+    "c7_r1_triage_sec",
+    "c8_ops_note",
+    "c9_zzz",
+    "c10_first",
+    "c11_formb_v1",
+    "c12_formb_r1"
+  ],
+  "models": [
+    {
+      "tag": "clef-flash",
+      "file": "data/candidates/clef-flash.jsonl.gz",
+      "records": 1607,
+      "scenarios": [
+        "route_refund",
+        "route_hr",
+        "doc_type",
+        "resume_role",
+        "expense_cat",
+        "loan_purpose",
+        "email_intent",
+        "moderation",
+        "pr_gate",
+        "support_priority",
+        "it_helpdesk",
+        "bug_severity",
+        "news_topic",
+        "contract_clause",
+        "data_classification",
+        "translation_queue",
+        "code_language",
+        "lead_qualification",
+        "incident_comms",
+        "pr_dep_bump"
+      ],
+      "expected": {
+        "fixed_flips": 80,
+        "family_flips": 122,
+        "usable_variants": 156,
+        "fixed_coverage": 14,
+        "family_coverage": 18,
+        "evaluable_cells": 20
+      },
+      "sources": [
+        {
+          "original_file": "l3w3-clef-flash-p1-20261005-180803.jsonl",
+          "selection": "baseline",
+          "records": 80,
+          "archive_first_record": 1
+        },
+        {
+          "original_file": "l3w3-clef-flash-p2-20261005-180907.jsonl",
+          "selection": "v1_policy_text",
+          "records": 80,
+          "archive_first_record": 81
+        },
+        {
+          "original_file": "l3w3-clef-flash-extnew-20261005-181138.jsonl",
+          "selection": "baseline_and_v1",
+          "records": 160,
+          "archive_first_record": 161
+        },
+        {
+          "original_file": "l7-clef-flash-choice-20261008-195202.jsonl",
+          "selection": "all",
+          "records": 1287,
+          "archive_first_record": 321
+        }
+      ]
+    },
+    {
+      "tag": "decider-0.8b",
+      "file": "data/candidates/decider-0.8b.jsonl.gz",
+      "records": 1398,
+      "scenarios": [
+        "route_refund",
+        "route_hr",
+        "doc_type",
+        "resume_role",
+        "expense_cat",
+        "loan_purpose",
+        "email_intent",
+        "moderation",
+        "pr_gate",
+        "support_priority",
+        "it_helpdesk",
+        "bug_severity",
+        "news_topic",
+        "contract_clause",
+        "data_classification",
+        "translation_queue",
+        "code_language",
+        "lead_qualification",
+        "incident_comms",
+        "pr_dep_bump"
+      ],
+      "expected": {
+        "fixed_flips": 49,
+        "family_flips": 77,
+        "usable_variants": 137,
+        "fixed_coverage": 9,
+        "family_coverage": 16,
+        "evaluable_cells": 19
+      },
+      "sources": [
+        {
+          "original_file": "l3w2-decider-0.8b-p1-20261004-204053.jsonl",
+          "selection": "baseline",
+          "records": 80,
+          "archive_first_record": 1
+        },
+        {
+          "original_file": "l3w2-decider-0.8b-p2-20261004-204754.jsonl",
+          "selection": "v1_policy_text",
+          "records": 80,
+          "archive_first_record": 81
+        },
+        {
+          "original_file": "l3w2-decider-0.8b-extnew-20261004-210452.jsonl",
+          "selection": "baseline_and_v1",
+          "records": 160,
+          "archive_first_record": 161
+        },
+        {
+          "original_file": "l7-decider-0.8b-choice-20261008-214305.jsonl",
+          "selection": "all",
+          "records": 1078,
+          "archive_first_record": 321
+        }
+      ]
+    },
+    {
+      "tag": "intern-0.8B",
+      "file": "data/candidates/intern-0.8B.jsonl.gz",
+      "records": 1288,
+      "scenarios": [
+        "route_refund",
+        "route_hr",
+        "doc_type",
+        "resume_role",
+        "expense_cat",
+        "loan_purpose",
+        "email_intent",
+        "moderation",
+        "pr_gate",
+        "support_priority",
+        "it_helpdesk",
+        "bug_severity",
+        "news_topic",
+        "contract_clause",
+        "data_classification",
+        "translation_queue",
+        "code_language",
+        "lead_qualification",
+        "incident_comms",
+        "pr_dep_bump"
+      ],
+      "expected": {
+        "fixed_flips": 73,
+        "family_flips": 130,
+        "usable_variants": 142,
+        "fixed_coverage": 15,
+        "family_coverage": 18,
+        "evaluable_cells": 19
+      },
+      "sources": [
+        {
+          "original_file": "l3w2-intern-0.8B-p1-20261004-203904.jsonl",
+          "selection": "baseline",
+          "records": 80,
+          "archive_first_record": 1
+        },
+        {
+          "original_file": "l3w2-intern-0.8B-p2-20261004-204431.jsonl",
+          "selection": "v1_policy_text",
+          "records": 80,
+          "archive_first_record": 81
+        },
+        {
+          "original_file": "l3w2-intern-0.8B-extnew-20261004-210044.jsonl",
+          "selection": "baseline_and_v1",
+          "records": 160,
+          "archive_first_record": 161
+        },
+        {
+          "original_file": "l7-intern-0.8B-choice-20261008-210554.jsonl",
+          "selection": "all",
+          "records": 968,
+          "archive_first_record": 321
+        }
+      ]
+    },
+    {
+      "tag": "intern-2B",
+      "file": "data/candidates/intern-2B.jsonl.gz",
+      "records": 1431,
+      "scenarios": [
+        "route_refund",
+        "route_hr",
+        "doc_type",
+        "resume_role",
+        "expense_cat",
+        "loan_purpose",
+        "email_intent",
+        "moderation",
+        "pr_gate",
+        "support_priority",
+        "it_helpdesk",
+        "bug_severity",
+        "news_topic",
+        "contract_clause",
+        "data_classification",
+        "translation_queue",
+        "code_language",
+        "lead_qualification",
+        "incident_comms",
+        "pr_dep_bump"
+      ],
+      "expected": {
+        "fixed_flips": 78,
+        "family_flips": 135,
+        "usable_variants": 153,
+        "fixed_coverage": 16,
+        "family_coverage": 19,
+        "evaluable_cells": 20
+      },
+      "sources": [
+        {
+          "original_file": "l3w2-intern-2B-p1-20261004-212752.jsonl",
+          "selection": "baseline",
+          "records": 80,
+          "archive_first_record": 1
+        },
+        {
+          "original_file": "l3w2-intern-2B-p2-20261004-221725.jsonl",
+          "selection": "v1_policy_text",
+          "records": 80,
+          "archive_first_record": 81
+        },
+        {
+          "original_file": "l3w2-intern-2B-extnew-20261004-223816.jsonl",
+          "selection": "baseline_and_v1",
+          "records": 160,
+          "archive_first_record": 161
+        },
+        {
+          "original_file": "l7-intern-2B-choice-20261008-230541.jsonl",
+          "selection": "all",
+          "records": 1111,
+          "archive_first_record": 321
+        }
+      ]
+    },
+    {
+      "tag": "intern-4B-mps",
+      "file": "data/candidates/intern-4B-mps.jsonl.gz",
+      "records": 1439,
+      "scenarios": [
+        "route_refund",
+        "route_hr",
+        "doc_type",
+        "resume_role",
+        "expense_cat",
+        "loan_purpose",
+        "email_intent",
+        "moderation",
+        "pr_gate",
+        "support_priority",
+        "it_helpdesk",
+        "bug_severity",
+        "news_topic",
+        "contract_clause",
+        "data_classification",
+        "translation_queue",
+        "code_language",
+        "lead_qualification",
+        "incident_comms",
+        "pr_dep_bump"
+      ],
+      "expected": {
+        "fixed_flips": 105,
+        "family_flips": 149,
+        "usable_variants": 157,
+        "fixed_coverage": 17,
+        "family_coverage": 19,
+        "evaluable_cells": 20
+      },
+      "sources": [
+        {
+          "original_file": "l7-intern-4B-mps-choice-20261009-133902.jsonl",
+          "selection": "all",
+          "records": 1439,
+          "archive_first_record": 1
+        }
+      ]
+    },
+    {
+      "tag": "jevstyle-2B",
+      "file": "data/candidates/jevstyle-2B.jsonl.gz",
+      "records": 1321,
+      "scenarios": [
+        "route_refund",
+        "route_hr",
+        "doc_type",
+        "resume_role",
+        "expense_cat",
+        "loan_purpose",
+        "email_intent",
+        "moderation",
+        "pr_gate",
+        "support_priority",
+        "it_helpdesk",
+        "bug_severity",
+        "news_topic",
+        "contract_clause",
+        "data_classification",
+        "translation_queue",
+        "code_language",
+        "lead_qualification",
+        "incident_comms",
+        "pr_dep_bump"
+      ],
+      "expected": {
+        "fixed_flips": 86,
+        "family_flips": 121,
+        "usable_variants": 148,
+        "fixed_coverage": 16,
+        "family_coverage": 20,
+        "evaluable_cells": 20
+      },
+      "sources": [
+        {
+          "original_file": "l3w2-jevstyle-2B-p1-20261004-235843.jsonl",
+          "selection": "baseline",
+          "records": 80,
+          "archive_first_record": 1
+        },
+        {
+          "original_file": "l3w2-jevstyle-2B-p2-20261005-000221.jsonl",
+          "selection": "v1_policy_text",
+          "records": 80,
+          "archive_first_record": 81
+        },
+        {
+          "original_file": "l3w2-jevstyle-2B-extnew-20261005-001104.jsonl",
+          "selection": "baseline_and_v1",
+          "records": 160,
+          "archive_first_record": 161
+        },
+        {
+          "original_file": "l7-jevstyle-2B-choice-20261008-222326.jsonl",
+          "selection": "all",
+          "records": 1001,
+          "archive_first_record": 321
+        }
+      ]
+    },
+    {
+      "tag": "julia",
+      "file": "data/candidates/julia.jsonl.gz",
+      "records": 1541,
+      "scenarios": [
+        "route_refund",
+        "route_hr",
+        "doc_type",
+        "resume_role",
+        "expense_cat",
+        "loan_purpose",
+        "email_intent",
+        "moderation",
+        "pr_gate",
+        "support_priority",
+        "it_helpdesk",
+        "bug_severity",
+        "news_topic",
+        "contract_clause",
+        "data_classification",
+        "translation_queue",
+        "code_language",
+        "lead_qualification",
+        "incident_comms",
+        "pr_dep_bump"
+      ],
+      "expected": {
+        "fixed_flips": 27,
+        "family_flips": 79,
+        "usable_variants": 119,
+        "fixed_coverage": 11,
+        "family_coverage": 17,
+        "evaluable_cells": 19
+      },
+      "sources": [
+        {
+          "original_file": "l3-p1-baseline-20261004-182000.jsonl",
+          "selection": "baseline",
+          "records": 80,
+          "archive_first_record": 1
+        },
+        {
+          "original_file": "l3-p2-policyfield-20261004-182115.jsonl",
+          "selection": "v1_policy_text",
+          "records": 80,
+          "archive_first_record": 81
+        },
+        {
+          "original_file": "l3-julia-ext-new-20261004-195112.jsonl",
+          "selection": "baseline_and_v1",
+          "records": 160,
+          "archive_first_record": 161
+        },
+        {
+          "original_file": "l7-julia-choice-20261009-000248.jsonl",
+          "selection": "all",
+          "records": 1221,
+          "archive_first_record": 321
+        }
+      ]
+    },
+    {
+      "tag": "laya",
+      "file": "data/candidates/laya.jsonl.gz",
+      "records": 1189,
+      "scenarios": [
+        "route_refund",
+        "route_hr",
+        "doc_type",
+        "resume_role",
+        "expense_cat",
+        "loan_purpose",
+        "email_intent",
+        "moderation",
+        "pr_gate",
+        "support_priority",
+        "it_helpdesk",
+        "bug_severity",
+        "news_topic",
+        "contract_clause",
+        "data_classification",
+        "translation_queue",
+        "code_language",
+        "lead_qualification",
+        "incident_comms",
+        "pr_dep_bump"
+      ],
+      "expected": {
+        "fixed_flips": 59,
+        "family_flips": 82,
+        "usable_variants": 113,
+        "fixed_coverage": 14,
+        "family_coverage": 18,
+        "evaluable_cells": 18
+      },
+      "sources": [
+        {
+          "original_file": "l3-laya-p1-baseline-20261004-183123.jsonl",
+          "selection": "baseline",
+          "records": 80,
+          "archive_first_record": 1
+        },
+        {
+          "original_file": "l3-laya-p2-policyfield-20261004-183145.jsonl",
+          "selection": "v1_policy_text",
+          "records": 80,
+          "archive_first_record": 81
+        },
+        {
+          "original_file": "l3-laya-ext-new-20261004-195119.jsonl",
+          "selection": "baseline_and_v1",
+          "records": 160,
+          "archive_first_record": 161
+        },
+        {
+          "original_file": "l7-laya-choice-20261009-000333.jsonl",
+          "selection": "all",
+          "records": 869,
+          "archive_first_record": 321
+        }
+      ]
+    },
+    {
+      "tag": "nanojev",
+      "file": "data/candidates/nanojev.jsonl.gz",
+      "records": 1398,
+      "scenarios": [
+        "route_refund",
+        "route_hr",
+        "doc_type",
+        "resume_role",
+        "expense_cat",
+        "loan_purpose",
+        "email_intent",
+        "moderation",
+        "pr_gate",
+        "support_priority",
+        "it_helpdesk",
+        "bug_severity",
+        "news_topic",
+        "contract_clause",
+        "data_classification",
+        "translation_queue",
+        "code_language",
+        "lead_qualification",
+        "incident_comms",
+        "pr_dep_bump"
+      ],
+      "expected": {
+        "fixed_flips": 14,
+        "family_flips": 96,
+        "usable_variants": 111,
+        "fixed_coverage": 3,
+        "family_coverage": 14,
+        "evaluable_cells": 15
+      },
+      "sources": [
+        {
+          "original_file": "l3w3-nanojev-p1-20261005-180933.jsonl",
+          "selection": "baseline",
+          "records": 80,
+          "archive_first_record": 1
+        },
+        {
+          "original_file": "l3w3-nanojev-p2-20261005-181046.jsonl",
+          "selection": "v1_policy_text",
+          "records": 80,
+          "archive_first_record": 81
+        },
+        {
+          "original_file": "l3w3-nanojev-extnew-20261005-181417.jsonl",
+          "selection": "baseline_and_v1",
+          "records": 160,
+          "archive_first_record": 161
+        },
+        {
+          "original_file": "l7-nanojev-choice-20261008-200757.jsonl",
+          "selection": "all",
+          "records": 1078,
+          "archive_first_record": 321
+        }
+      ]
+    },
+    {
+      "tag": "openjev-4b",
+      "file": "data/candidates/openjev-4b.jsonl.gz",
+      "records": 1508,
+      "scenarios": [
+        "route_refund",
+        "route_hr",
+        "doc_type",
+        "resume_role",
+        "expense_cat",
+        "loan_purpose",
+        "email_intent",
+        "moderation",
+        "pr_gate",
+        "support_priority",
+        "it_helpdesk",
+        "bug_severity",
+        "news_topic",
+        "contract_clause",
+        "data_classification",
+        "translation_queue",
+        "code_language",
+        "lead_qualification",
+        "incident_comms",
+        "pr_dep_bump"
+      ],
+      "expected": {
+        "fixed_flips": 91,
+        "family_flips": 121,
+        "usable_variants": 153,
+        "fixed_coverage": 16,
+        "family_coverage": 18,
+        "evaluable_cells": 20
+      },
+      "sources": [
+        {
+          "original_file": "l3w3-openjev-4b-p1-20261005-185952.jsonl",
+          "selection": "baseline",
+          "records": 80,
+          "archive_first_record": 1
+        },
+        {
+          "original_file": "l3w3-openjev-4b-p2-20261005-190725.jsonl",
+          "selection": "v1_policy_text",
+          "records": 80,
+          "archive_first_record": 81
+        },
+        {
+          "original_file": "l3w3-openjev-4b-extnew-20261005-191102.jsonl",
+          "selection": "baseline_and_v1",
+          "records": 160,
+          "archive_first_record": 161
+        },
+        {
+          "original_file": "l7-openjev-4b-choice-20261009-135905.jsonl",
+          "selection": "all",
+          "records": 1188,
+          "archive_first_record": 321
+        }
+      ]
+    },
+    {
+      "tag": "openjev-deberta",
+      "file": "data/candidates/openjev-deberta.jsonl.gz",
+      "records": 1486,
+      "scenarios": [
+        "route_refund",
+        "route_hr",
+        "doc_type",
+        "resume_role",
+        "expense_cat",
+        "loan_purpose",
+        "email_intent",
+        "moderation",
+        "pr_gate",
+        "support_priority",
+        "it_helpdesk",
+        "bug_severity",
+        "news_topic",
+        "contract_clause",
+        "data_classification",
+        "translation_queue",
+        "code_language",
+        "lead_qualification",
+        "incident_comms",
+        "pr_dep_bump"
+      ],
+      "expected": {
+        "fixed_flips": 46,
+        "family_flips": 78,
+        "usable_variants": 146,
+        "fixed_coverage": 8,
+        "family_coverage": 16,
+        "evaluable_cells": 20
+      },
+      "sources": [
+        {
+          "original_file": "l3w3-openjev-deberta-p1-20261005-182732.jsonl",
+          "selection": "baseline",
+          "records": 80,
+          "archive_first_record": 1
+        },
+        {
+          "original_file": "l3w3-openjev-deberta-p2-20261005-182754.jsonl",
+          "selection": "v1_policy_text",
+          "records": 80,
+          "archive_first_record": 81
+        },
+        {
+          "original_file": "l3w3-openjev-deberta-extnew-20261005-183236.jsonl",
+          "selection": "baseline_and_v1",
+          "records": 160,
+          "archive_first_record": 161
+        },
+        {
+          "original_file": "l7-openjev-deberta-choice-20261008-201516.jsonl",
+          "selection": "all",
+          "records": 1166,
+          "archive_first_record": 321
+        }
+      ]
+    },
+    {
+      "tag": "openthai",
+      "file": "data/candidates/openthai.jsonl.gz",
+      "records": 1376,
+      "scenarios": [
+        "route_refund",
+        "route_hr",
+        "doc_type",
+        "resume_role",
+        "expense_cat",
+        "loan_purpose",
+        "email_intent",
+        "moderation",
+        "pr_gate",
+        "support_priority",
+        "it_helpdesk",
+        "bug_severity",
+        "news_topic",
+        "contract_clause",
+        "data_classification",
+        "translation_queue",
+        "code_language",
+        "lead_qualification",
+        "incident_comms",
+        "pr_dep_bump"
+      ],
+      "expected": {
+        "fixed_flips": 55,
+        "family_flips": 104,
+        "usable_variants": 134,
+        "fixed_coverage": 11,
+        "family_coverage": 19,
+        "evaluable_cells": 19
+      },
+      "sources": [
+        {
+          "original_file": "l3w3-openthai-p1-20261005-183315.jsonl",
+          "selection": "baseline",
+          "records": 80,
+          "archive_first_record": 1
+        },
+        {
+          "original_file": "l3w3-openthai-p2-20261005-183629.jsonl",
+          "selection": "v1_policy_text",
+          "records": 80,
+          "archive_first_record": 81
+        },
+        {
+          "original_file": "l3w3-openthai-extnew-20261005-184341.jsonl",
+          "selection": "baseline_and_v1",
+          "records": 160,
+          "archive_first_record": 161
+        },
+        {
+          "original_file": "l7-openthai-choice-20261008-201934.jsonl",
+          "selection": "all",
+          "records": 1056,
+          "archive_first_record": 321
+        }
+      ]
+    }
+  ]
+}
